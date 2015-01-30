@@ -45,9 +45,7 @@ nav {
 }
 
 a {
-  color: black;
-  background-color: purple
-
+  color: grey;
 }
 
 a:hover {
@@ -55,7 +53,7 @@ a:hover {
 }
 
 h2 {
-  color: midnightblue;
+  color: white;
 }
 
 blockquote {
@@ -66,6 +64,7 @@ blockquote {
 
 .cite {
   text-align: right;
+  background-color: #a0a7bd;
 }
 
 em {
@@ -82,4 +81,20 @@ figure {
 
 img {
 width: 100%
+}
+
+dd {
+  margin: 0;
+}
+
+footer {
+  background-color: midnightblue;
+  padding: 1em 2em .5em 1em;
+  margin: 0:
+}
+
+.bullet {
+  list-style-type: circle;
+  padding: 0em 0em 0em 2em;
+  color: grey;
 }
