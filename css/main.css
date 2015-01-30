@@ -3,12 +3,20 @@ html {
   background-color: #a0a7bd;
 }
 
+header {
+  background-color: midnightblue;
+}
+
 h1 {
   font-weight: bold;
   font-size: 5rem;
-  text-decoration: underline;
+  text-decoration: none;
   line-height: 1.5;
-  color: midnightblue
+  background-color: midnightblue;
+  padding: 1em 2em 0.5em 3em;
+  margin: 0;
+  color: white;
+  text-align: center;
 }
 
 ol {
@@ -16,8 +24,29 @@ ol {
   padding: 0
 }
 
+nav a{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav {
+  background-color: midnightblue;
+  text-align: center;
+}
+
 a {
-  color: purple;
+  color: black;
+  background-color: purple
+
 }
 
 a:hover {
